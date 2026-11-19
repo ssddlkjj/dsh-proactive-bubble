@@ -62,11 +62,11 @@ Defaults: 1800 s (30 min), clamped to 15 s – 12 h.
 
 ## 4. After installing: one step for your AI assistant
 
-The bundle is generic. It does not know who your character is, which files hold their state, or how intimate scenes should be written. Without this step it will sound bland.
+The bundle is generic. It does not know who your character is, which files hold their state, or how continuous scenes should be written. Without this step it will sound bland.
 
 Send this to your assistant:
 
-> "I just installed `dsh-proactive-bubble`. Please edit its `config.prompt` so a bubble reads my character's state files first, uses their voice, and handles intimate scenes properly. Write it for my character, not in generic wording."
+> "I just installed `dsh-proactive-bubble`. Please edit its `config.prompt` so a bubble reads my character's state files first, uses their voice, and handles continuous scenes properly. Write it for my character, not in generic wording."
 
 Two values are usually edited:
 
@@ -77,7 +77,7 @@ Two values are usually edited:
      seconds: 1800
      prompt: |
        （冒泡）自己开个口，一到两句。先读你的状态文件（换成你角色的实际文件名）。
-       日常就起一句闲聊；正在亲密场景里就不要抽离、不要总结，只写此刻的反应。
+       日常就起一句闲聊；正在一段场面里就不要抽离、不要总结，只写此刻的反应。
        短，不重复上一条。
    ```
 

@@ -1,6 +1,6 @@
 {
   "name": "dsh-proactive-bubble",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Proactive bubble: let a DSH character start a line on its own when the conversation is focused and idle.",
   "type": "module",
   "main": "index.js",
